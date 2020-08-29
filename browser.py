@@ -1,3 +1,8 @@
+#==========================================
+# Title:  browser.py
+# Author: Thijs Roumen (firstname.lastname [at] hpi.de)
+# Date:   2020.07.05
+#==========================================
 import requests
 import json
 import csv
@@ -25,6 +30,14 @@ def runQuery(searchTerm,show,hasMakes,isRemix,isCustomizable,sort):
     else:               filter += "&sort=popular"
     query = "{}/search/{}?access_token={}{}".format(apiURL,searchTerm, apiKey, filter)
     return requests.get(query).json()
+
+# retrieves the file info for a thing ID in a separate API call
+def getFileInfo(thing):
+    # TODO: update the url to retrieve file data
+    query = "{}/things/{}/files/?access_token={}&type=display&size=large".format(apiURL, thing, apiKey)
+    return requests.get(query).json()
+
+
 
 # retrieves the image info for a thing ID in a separate API call
 def getImageInfo(thing):
