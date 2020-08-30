@@ -10,40 +10,40 @@ folder structure looks like this:
 search term
 
 +--- all-models-(number of models)  
-    +--- thingiverse_id1.jpg  
-    +--- thingiverse_id2.jpg  
-      ...  
-    +--- thingiverse_idn.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id1.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id2.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_idn.jpg  
 
 +--- hasMakes-(n)  
-    +--- thingiverse_id1.jpg  
-    +--- thingiverse_id2.jpg  
-      ...  
-    +--- thingiverse_idn.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id1.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id2.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_idn.jpg  
 
 +--- isRemix-(n)  
-    +--- thingiverse_id1.jpg  
-    +--- thingiverse_id2.jpg  
-      ...  
-    +--- thingiverse_idn.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id1.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id2.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_idn.jpg  
 
 +--- isRemix-and-hasMakes-(n)  
-    +--- thingiverse_id1.jpg  
-    +--- thingiverse_id2.jpg  
-      ...  
-    +--- thingiverse_idn.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id1.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id2.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_idn.jpg  
 
 +--- customizable-(n)  
-    +--- thingiverse_id1.jpg  
-    +--- thingiverse_id2.jpg  
-      ...  
-    +--- thingiverse_idn.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id1.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id2.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_idn.jpg  
 
 +--- customizable-and-hasMakes(n)  
-    +--- thingiverse_id1.jpg  
-    +--- thingiverse_id2.jpg  
-      ...  
-    +--- thingiverse_idn.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id1.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_id2.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;&nbsp;+--- thingiverse_idn.jpg  
 
 
 # Getting Started
